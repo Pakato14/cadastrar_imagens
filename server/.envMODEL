@@ -1,0 +1,7 @@
+PORT = porta
+DB_USER = tipo_banco
+DB_PASSWORD = senha
+DB_NAME = database_name
+DB_HOST = ip
+DB_DIALECT = dialect
+NODE_ENV = development or Production
