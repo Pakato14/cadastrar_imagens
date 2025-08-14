@@ -4,13 +4,12 @@ const routes = require('./routes')
 require ('dotenv').config()
 
 const app = express()
-app.use(cookieParser())
 app.use(express.json())
 
 
 var corsOptions = {
     credentials: true,
-    origin: 'http://localhost:2624',
+    origin: 'http://localhost:4200',
     optionsSuccessStatus: 200,
     methods: "GET, PUT, POST, DELETE",
     allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept", "Access-Control-Allow-Origin"],
